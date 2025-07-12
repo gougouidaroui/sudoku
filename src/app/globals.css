@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "" ;
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+main {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header  {
+    min-height: 10vh;
+    background: gray;
+}
+footer {
+    min-height: 10vh;
+    background: gray;
+}
+.game {
+
+    border: 1px solid black;
+    min-width: 800px;
+    aspect-ratio: 1 / 1;
+    border-radius: 35px;
+    display: flex;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+}
+.inner-border {
+    border: 2px solid black;
+    width: 780px;
+    height: 780px;
+    border-radius: 32px;
+    display: flex;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+tr {
+    padding: 20px;
+    border: 1px solid black;
+}
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
